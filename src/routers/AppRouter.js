@@ -16,7 +16,7 @@ export const AppRouter = () => {
       <div>
         <Routes>
           <Route
-            path="/login"
+            path="/heroApp-react/login"
             element={
               <PublicRoute>
                 <LoginScreen />
@@ -24,7 +24,7 @@ export const AppRouter = () => {
               }
           />
           <Route
-            path='/*'
+            path='/heroApp-react/*'
             element={
               <PrivateRoute >
                 <DashboardRoutes />
