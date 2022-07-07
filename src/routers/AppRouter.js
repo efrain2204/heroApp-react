@@ -12,7 +12,7 @@ import {PublicRoute} from "./PublicRoute";
 
 export const AppRouter = () => {
   return (
-    <Router>
+    <Router basename='/heroApp-react'>
       <div>
         <Routes>
           <Route
