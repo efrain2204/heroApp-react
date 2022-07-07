@@ -14,7 +14,7 @@ export const PrivateRoute = ( {
   return (
         (user.logged)
           ? children
-          : <Navigate to="/heroApp-react/login"/>
+          : <Navigate to="/login"/>
   );
 };
 

@@ -16,11 +16,11 @@ export const DashboardRoutes = () => {
       <Navbar />
       <div className='container mt-5'>
         <Routes>
-          <Route path='/heroApp-react/marvel' element={<MarvelScreen/>}/>
-          <Route path='/heroApp-react/hero/:heroId' element={<HeroScreen/>}/>
-          <Route path='/heroApp-react/dc' element={<DcScreen/>}/>
-          <Route path='/heroApp-react/search' element={<SearchScreen/>}/>
-          <Route path="/heroApp-react/*" element={<Navigate to="/marvel" replace />}
+          <Route path='/marvel' element={<MarvelScreen/>}/>
+          <Route path='/hero/:heroId' element={<HeroScreen/>}/>
+          <Route path='/dc' element={<DcScreen/>}/>
+          <Route path='/search' element={<SearchScreen/>}/>
+          <Route path="*" element={<Navigate to="/marvel" replace />}
           />
         </Routes>
       </div>

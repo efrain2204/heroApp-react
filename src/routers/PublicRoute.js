@@ -12,7 +12,7 @@ export const PublicRoute = ( {
   return (
     (!user.logged)
       ? children
-      : <Navigate to="/heroApp-react/marvel"/>
+      : <Navigate to="/marvel"/>
   );
 };
 
